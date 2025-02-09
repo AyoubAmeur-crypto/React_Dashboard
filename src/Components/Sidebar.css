@@ -1,0 +1,29 @@
+.SideBar {
+
+    background-color: var(--black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 190px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding: 10px 20px;
+}
+
+.SideBar img {
+
+    height: 40px;
+    width: 40px;
+}
+
+.SideBar a {
+
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}

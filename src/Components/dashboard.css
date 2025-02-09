@@ -1,0 +1,249 @@
+
+.containerBoardy {
+
+    max-width: 1350px;
+    
+    margin-left: 100px;
+    z-index: 100;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-top: 40px;
+}
+.leftDash {
+
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+.orders {
+
+    color: white;
+}
+.title {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.title select{
+
+    background-color: var(--orange);
+    padding: 5px 10px;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    border: transparent;
+    cursor: pointer;
+}
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(4,minmax(200px,300px));
+   
+    column-gap: 75px;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-height: fit-content;
+}
+
+.card .cardTitle {
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.card .price {
+
+    font-size: 25px;
+   
+}
+
+.averrage {
+
+    color: var(--green);
+    padding: 0 5px;
+    border-radius: 4px;
+    background-color: rgba(54, 234, 54, 0.188);
+}
+.details {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 180px;
+}
+
+.first {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+.first i {
+
+    font-size: 40px;
+    background-color: var(--orange);
+    color: var(--black);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+.detaily h3 {
+
+   margin-top: 5px;
+   color: rgba(255, 255, 255, 0.725);
+    
+    
+}
+.second  h3 {
+
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.725);
+}
+.third  h3 {
+
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.725);
+}
+.fourth  h3 {
+
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.725);
+}
+
+.chart {
+
+    margin-top: 20px;padding: 0 4px;
+}
+
+.orders {
+
+    margin-left: 15px;
+    width: 20%;
+    max-height: 800px;
+}
+.orderTtile {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    column-gap: 25px;
+    
+}
+.orderTtile h4 {
+
+    font-size: 20px;
+}
+.orderTtile img {
+
+    height: 60px;
+    width: 60px;
+}
+.amount {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.amount h4 {
+
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.725);
+}
+.amount h2 {
+
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.725);
+}
+.orders {
+
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.ordery {
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.249);
+    
+    
+    width: 100%;
+    
+}
+.firstRowy {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondRowy {
+ 
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 15px;
+
+}
+.averrage-md {
+
+    background-color: rgba(54, 234, 54, 0.188);
+    color: var(--green);
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+ .secondRow p {
+
+    color: rgba(255, 255, 255, 0.725);
+}
+.orderyName {
+
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.725);
+}
+.splitChart {
+
+    width: 100%;
+   
+}
+.splitChart h3 {
+
+    margin-top: 10px;
+}
+
+.circleChart  {
+  
+    
+    max-height: 130px;
+    position: relative;
+    
+    margin-top: 25px;
+    margin-bottom: 18px;
+}

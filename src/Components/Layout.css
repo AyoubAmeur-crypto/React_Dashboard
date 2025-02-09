@@ -1,0 +1,84 @@
+.dashboard {
+
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.topBaseGradient {
+
+   
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 20rem;
+    z-index: -200;
+    
+}
+.gradient-orange{
+
+    right: 41%;
+    
+}
+.gradient-blue{
+
+    right: 0;
+}
+.topHeader{
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 30px;
+   padding: 0 90px;
+}
+
+.topHeader span{
+
+   color: white;
+}
+.inputy{
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color: rgba(193, 193, 193, 0.226);
+   width: 320px;
+   padding: 5px ;
+   border-radius: 10px;
+   gap: 5px;
+}
+
+.inputy input {
+
+    background-color: rgba(193, 193, 193, 0.226);
+    border: 2px solid rgba(255, 255, 255, 0.622);
+    color: white;
+    border-radius: 8px;
+    padding: 5px 8px;
+    width: 90%;
+}
+
+
+.inputy button {
+
+    padding: 5px 8px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.622);
+    border-radius: 8px;
+ 
+}
+.profile {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}

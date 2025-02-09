@@ -1,0 +1,15 @@
+.containerTable {
+
+    position: relative;
+    z-index: 100;
+    max-width: 1350px;
+    margin-left: 140px;
+    margin-top: 60px;
+    
+}
+
+.MuiTable-root {
+    background-color: #333 !important; /* Dark background */
+    color: white !important; /* White text */
+  }
+  
